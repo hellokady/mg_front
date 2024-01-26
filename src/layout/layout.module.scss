@@ -1,0 +1,22 @@
+.header {
+  background-color: #000;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  min-height: calc(100vh - 50px);
+  .aside {
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: pink;
+  }
+  .main {
+    flex: 1;
+    padding: 20px;
+    background-color: green;
+  }
+}
